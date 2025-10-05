@@ -27,28 +27,27 @@
     justify-content: center;
     align-items: center;
 }
-nav {
+.nav {
     background: #333;
     color: #fff;
     padding: 10px 0;
 }
-nav ul {
+.nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex; 
     justify-content: center; /* Пункты меню по центру */
 }
-nav li {
+.nav li {
     margin: 0 20px;
 }
-nav a {
+.nav a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
 }
-
-main {
+.main {
     padding: 20px;
     display: flex;
 }
@@ -62,9 +61,8 @@ main {
     border-radius: 15px;
     padding: 10px;
     margin-left: 10px; 
-
 }
-footer {
+.footer {
     background: #333;
     color: #fff;
     text-align: right;
@@ -154,25 +152,25 @@ footer {
         background: #060606;
         padding: 0px 10px 0px 10px;
     }
-    nav {
+    .nav {
         background: #8a8a89;
         border-top: 1px solid #ddd;
         border-bottom: 1px solid #ddd;
         padding: 5px 0px;
     }
-    nav ul {
+    .nav ul {
         display: flex;
         justify-content: center;
         list-style: none;
         gap: 10px; 
     }
-    nav a {
+    .nav a {
         color: #ffffff;
         font-weight: 600;
         font-size: 16px;
         padding: 8px 12px; 
     }
-    main {
+    .main {
         display: flex;
         flex-direction: column;
         align-items: stretch;
@@ -181,7 +179,7 @@ footer {
     .main-news{
         margin-top: 20px;
     }
-    footer {
+    .footer {
         background-color: #000000;
         color: #ffffff;
         text-align: center;
